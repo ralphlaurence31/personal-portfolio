@@ -4,10 +4,11 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import 'aos/dist/aos.css';
 
 function About() {
   return (
-    <div className='about-me md:grid-cols-2 grid grid-cols-1 grid' id='home'>
+    <div data-aos="zoom-in" className='about-me md:grid-cols-2 grid grid-cols-1 grid' id='home'>
 
         <div className="about-me-contents flex justify-center items-center">
            <div className='flex md:justify-start md:items-start justify-center items-center flex-col'>

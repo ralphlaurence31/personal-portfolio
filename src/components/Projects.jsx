@@ -1,18 +1,19 @@
 import React from 'react';
-import calculator from '../assets/calculator.png';
-import crud from '../assets/crud.png';
+import calculatorpic from '../assets/calculator.png';
+import crudpic from '../assets/crud.png';
+import 'aos/dist/aos.css';
 
 
 // Sample data for the projects
 const projects = [
   {
-    imageUrl: calculator,
+    imageUrl: calculatorpic,
     title: 'RLSR Scientific Calculator',
     description: 'This project used Tailwind CSS for UI and JavaScript for function.',
     link: 'https://scientific-calculator-brown.vercel.app/'
   },
   {
-    imageUrl: crud,
+    imageUrl: crudpic,
     title: 'myclassmates-crud',
     description: 'This project used Tailwind CSS for UI, PHP for backend.',
     link: 'https://github.com/ralphlaurence31/crud-myclassmates'
@@ -21,11 +22,12 @@ const projects = [
 ];
 
 function Projects() {
+  
   return (
-    <div className='titleTechnologies mt-20' id='my-projects'>
+    <div className='transition-all duration-1000 titleTechnologies mt-20' id='my-projects' data-aos="fade-right">
       <p className='text-3xl text-center'>Projects</p>
 
-      <div className='w-full gap-4 mt-10 grid md:grid-cols-4 grid-cols-1'>
+      <div className='w-full gap-4 mt-10 grid md:grid-cols-4 grid-cols-1 '>
         {projects.map((project, index) => (
           <div key={index} className="w-full bg-white border border-gray-300 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a target='_blank' href={project.link}>
