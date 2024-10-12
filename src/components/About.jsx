@@ -4,7 +4,7 @@ import htmlIcon from '../src/assets/html.png';
 
 
 const technologies = [
-  { icon: {htmlIcon}, pointer: 'HTML5' },
+  { icon: htmlIcon, pointer: 'HTML5' },
  
 ];
 
