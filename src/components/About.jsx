@@ -1,45 +1,25 @@
 import React from 'react'
+import htmlIcon from '../assets/html.png';
+import cssIcon from '../assets/css.png';
+import bootstrapIcon from '../assets/bootstrap.png';
+import tailwindIcon from '../assets/tailwind.png';
+import phpIcon from '../assets/php.png';
+import mysqlIcon from '../assets/mysql.png';
+import javaIcon from '../assets/java.png';
+import javascriptIcon from '../assets/javascript.png';
+import reactIcon from '../assets/react.png';
 
 const technologies = [
-  {
-    icon: '../assets/html.png',
-    pointer: 'HTML5'
-  },
-  {
-    icon: '../assets/css.png',
-    pointer: 'CSS'
-  },
-  {
-    icon: '../assets/bootstrap.png',
-    pointer: 'Bootstrap'
-  },
-  {
-    icon: '../tailwind.png',
-    pointer: 'Tailwind'
-  },
-  {
-    icon: '../assets/php.png',
-    pointer: 'php'
-  },
-  {
-    icon: '../assets/mysql.png',
-    pointer: 'MySQL'
-  },
-  {
-    icon: '../assets/java.png',
-    pointer: 'Java'
-  },
-  {
-    icon: '../assets/javascript.png',
-    pointer: 'JavaScript'
-  },
-  {
-    icon: '../assets/react.png',
-    pointer: 'React'
-  },
- 
+  { icon: htmlIcon, pointer: 'HTML5' },
+  { icon: cssIcon, pointer: 'CSS' },
+  { icon: bootstrapIcon, pointer: 'Bootstrap' },
+  { icon: tailwindIcon, pointer: 'Tailwind' },
+  { icon: phpIcon, pointer: 'PHP' },
+  { icon: mysqlIcon, pointer: 'MySQL' },
+  { icon: javaIcon, pointer: 'Java' },
+  { icon: javascriptIcon, pointer: 'JavaScript' },
+  { icon: reactIcon, pointer: 'React' },
 ];
-
 
 function About() {
   return (

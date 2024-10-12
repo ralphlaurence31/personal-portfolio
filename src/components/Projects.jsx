@@ -1,5 +1,6 @@
 import React from 'react';
 import calculator from '../assets/calculator.png'
+import crud from '../assets/crud.png'
 
 // Sample data for the projects
 const projects = [
@@ -10,7 +11,7 @@ const projects = [
     link: 'https://scientific-calculator-brown.vercel.app/'
   },
   {
-    imageUrl: '../assets/crud.png',
+    imageUrl: crud,
     title: 'myclassmates-crud',
     description: 'This project used Tailwind CSS for UI, PHP for backend.',
     link: 'https://github.com/ralphlaurence31/crud-myclassmates'
