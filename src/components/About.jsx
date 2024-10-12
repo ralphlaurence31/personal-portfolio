@@ -1,12 +1,10 @@
 import React from 'react'
+import htmlIcon from '../src/assets/html.svg';
 
 
 
 const technologies = [
-  {
-    icon: '../src/assets/html.svg',
-    pointer: 'HTML5'
-  },
+  { icon: htmlIcon, pointer: 'HTML5' },
   
  
 ];
