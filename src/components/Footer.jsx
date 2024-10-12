@@ -3,6 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import logo from '../assets/logo.png'
 
 function Footer() {
   return (
@@ -12,7 +13,7 @@ function Footer() {
             <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div class="md:flex md:items-center md:justify-between mx-auto max-w-screen-lg">
                     <div class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                        <img src="/src/assets/logo.png" class="h-8" alt="Logo" />
+                        <img src={logo} class="h-8" alt="Logo" />
                         <span class="self-center text-base font-light whitespace-nowrap dark:text-white">ralphlaurencerazonable@gmail.com</span>
                     </div>
                     <ul class="flex flex-wrap items-center mb-6 gap-10 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
