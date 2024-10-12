@@ -61,7 +61,7 @@ function About() {
             <div className='myTechnologies mt-5 flex justify-around'>
               {technologies.map((technologies, index) => (
                 <ul key={index} className='flex items-center gap-[50px] mt-5 '>
-                  <li className='cursor-pointer transition-all duration-300 hover:-translate-y-5'title={technologies.pointer} alt={technologies.pointer} data-tooltip-target="tooltip-dark"><img src={technologies.icon} alt={technologies.icon} className='w-[50px] h-[50px]'></img></li>
+                  <li className='cursor-pointer transition-all duration-300 hover:-translate-y-5'title={technologies.pointer} alt={technologies.pointer} data-tooltip-target="tooltip-dark"><img src={technologies.icon} className='w-[50px] h-[50px]'></img></li>
                 </ul>
                 
               ))}
