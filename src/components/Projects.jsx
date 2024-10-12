@@ -1,6 +1,7 @@
 import React from 'react';
-import calculator from '../assets/calculator.png'
-import crud from '../assets/crud.png'
+import calculator from '../assets/calculator.png';
+import crud from '../assets/crud.png';
+
 
 // Sample data for the projects
 const projects = [
