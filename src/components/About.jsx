@@ -1,5 +1,5 @@
 import React from 'react'
-import htmlIcon from '../src/assets/html.svg';
+import htmlIcon from '../src/assets/html.png';
 
 
 
