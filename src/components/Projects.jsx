@@ -3,13 +3,13 @@ import React from 'react';
 // Sample data for the projects
 const projects = [
   {
-    imageUrl: '../src/assets/calculator.svg',
+    imageUrl: '../src/assets/calculator.png',
     title: 'RLSR Scientific Calculator',
     description: 'This project used Tailwind CSS for UI and JavaScript for function.',
     link: 'https://scientific-calculator-brown.vercel.app/'
   },
   {
-    imageUrl: '../src/assets/crud.svg',
+    imageUrl: '../src/assets/crud.png',
     title: 'myclassmates-crud',
     description: 'This project used Tailwind CSS for UI, PHP for backend.',
     link: 'https://github.com/ralphlaurence31/crud-myclassmates'

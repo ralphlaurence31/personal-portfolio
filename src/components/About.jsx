@@ -1,11 +1,26 @@
 import React from 'react'
-import htmlIcon from '../src/assets/html.svg';
+import htmlIcon from '../src/assets/html.png';
+import cssIcon from '../src/assets/css.png';
+import bootstrapIcon from '../src/assets/bootstrap.png';
+import tailwindIcon from '../src/assets/tailwind.png';
+import phpIcon from '../src/assets/php.png';
+import mysqlIcon from '../src/assets/mysql.png';
+import javaIcon from '../src/assets/java.png';
+import javascriptIcon from '../src/assets/javascript.png';
+import reactIcon from '../src/assets/react.png';
 
 
 
 const technologies = [
   { icon: htmlIcon, pointer: 'HTML5' },
-  
+  { icon: cssIcon, pointer: 'CSS' },
+  { icon: bootstrapIcon, pointer: 'Bootstrap' },
+  { icon: tailwindIcon, pointer: 'Tailwind' },
+  { icon: phpIcon, pointer: 'PHP' },
+  { icon: mysqlIcon, pointer: 'MySQL' },
+  { icon: javaIcon, pointer: 'Java' },
+  { icon: javascriptIcon, pointer: 'JavaScript' },
+  { icon: reactIcon, pointer: 'React' },
  
 ];
 
