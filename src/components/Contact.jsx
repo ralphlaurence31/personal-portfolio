@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import "aos/dist/aos.css";
 
 function Contact() {
   const firstNameRef = useRef();
@@ -6,6 +7,7 @@ function Contact() {
   const emailRef = useRef();
   const subjectRef = useRef();
   const messageRef = useRef();
+
 
   const sendEmail = (e) => {
     e.preventDefault(); // Prevent the default form submission
@@ -54,13 +56,11 @@ function Contact() {
     })
     .catch((error) => console.error("Error sending email:", error));
   };
-
-  
   
   return (
-    <div className='contact bg-white px-6 py-24 sm:py-32 lg:px-8 flex items-center justify-center' id='contact'>
+    <div className='contact bg-white px-6 py-24 sm:py-32 lg:px-8 flex items-center justify-center'id='contact'>
 
-      <div className="contact-me">
+      <div data-aos="fade-up" className="contact-me">
 
         <div className='contact-text'>
             <p className='text-3xl text-center'>Contact</p>
@@ -120,8 +120,10 @@ function Contact() {
       </div>
       
     </div>
+    
   )
 }
+
 
 
 export default Contact
