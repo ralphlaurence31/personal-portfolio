@@ -2,39 +2,39 @@ import React from 'react'
 
 const technologies = [
   {
-    icon: '../assets/html.svg',
+    icon: '../assets/html.png',
     pointer: 'HTML5'
   },
   {
-    icon: '../assets/css.svg',
+    icon: '../assets/css.png',
     pointer: 'CSS'
   },
   {
-    icon: '../assets/bootstrap.svg',
+    icon: '../assets/bootstrap.png',
     pointer: 'Bootstrap'
   },
   {
-    icon: '../tailwind.svg',
+    icon: '../tailwind.png',
     pointer: 'Tailwind'
   },
   {
-    icon: '../assets/php.svg',
+    icon: '../assets/php.png',
     pointer: 'php'
   },
   {
-    icon: '../assets/mysql.svg',
+    icon: '../assets/mysql.png',
     pointer: 'MySQL'
   },
   {
-    icon: '../assets/java.svg',
+    icon: '../assets/java.png',
     pointer: 'Java'
   },
   {
-    icon: '../assets/javascript.svg',
+    icon: '../assets/javascript.png',
     pointer: 'JavaScript'
   },
   {
-    icon: '../assets/react.svg',
+    icon: '../assets/react.png',
     pointer: 'React'
   },
  
