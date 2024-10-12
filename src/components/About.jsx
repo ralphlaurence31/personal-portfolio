@@ -1,44 +1,10 @@
 import React from 'react'
+import htmlIcon from '../src/assets/html.svg';
 
 
 
 const technologies = [
-  {
-    icon: '../src/assets/html.svg',
-    pointer: 'HTML5'
-  },
-  {
-    icon: '../src/assets/css.svg',
-    pointer: 'CSS'
-  },
-  {
-    icon: '../src/assets/bootstrap.svg',
-    pointer: 'Bootstrap'
-  },
-  {
-    icon: '../src/assets/tailwind.svg',
-    pointer: 'Tailwind'
-  },
-  {
-    icon: '../src/assets/php.svg',
-    pointer: 'php'
-  },
-  {
-    icon: '../src/assets/mysql.svg',
-    pointer: 'MySQL'
-  },
-  {
-    icon: '../src/assets/java.svg',
-    pointer: 'Java'
-  },
-  {
-    icon: '../src/assets/javascript.svg',
-    pointer: 'JavaScript'
-  },
-  {
-    icon: '../src/assets/react.svg',
-    pointer: 'React'
-  },
+  { icon: {htmlIcon}, pointer: 'HTML5' },
  
 ];
 
@@ -61,7 +27,7 @@ function About() {
             <div className='myTechnologies mt-5 flex justify-around'>
               {technologies.map((technologies, index) => (
                 <ul key={index} className='flex items-center gap-[50px] mt-5 '>
-                  <li className='cursor-pointer transition-all duration-300 hover:-translate-y-5'title={technologies.pointer} alt={technologies.pointer} data-tooltip-target="tooltip-dark"><img src={technologies.icon} alt={technologies.icon} className='w-[50px] h-[50px]'/></li>
+                  <li className='cursor-pointer transition-all duration-300 hover:-translate-y-5'title={technologies.pointer} alt={technologies.pointer} data-tooltip-target="tooltip-dark"><img src={technologies.icon} className='w-[50px] h-[50px]'/></li>
                 </ul>
                 
               ))}
