@@ -35,7 +35,7 @@ function About() {
 
       <div className='aboutMeText' data-aos="fade-up">
         <p className='text-3xl text-center'>About</p>
-        <p className='text-justify mt-5'>I am Ralph Laurence S. Razonable, 23 years old. I recently graduated from Cavite State University - Imus Campus with a Bachelor’s degree in Information Technology. I completed my internship at South Imus Specialist Hospital. I am currently studying web technology tools to upskill myself.</p>
+        <p className='text-justify mt-5 p-5'>I am Ralph Laurence S. Razonable, 23 years old. I recently graduated from Cavite State University - Imus Campus with a Bachelor’s degree in Information Technology. I completed my internship at South Imus Specialist Hospital. I am currently studying web technology tools to upskill myself.</p>
       
       </div>
 
